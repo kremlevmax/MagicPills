@@ -54,14 +54,22 @@
 		D997F8E21E69A78100A1A639 /* MiraclePills */ = {
 			isa = PBXGroup;
 			children = (
-				D997F8E31E69A78100A1A639 /* AppDelegate.swift */,
+				D997F8F51E69BBA100A1A639 /* Extra files */,
 				D997F8E51E69A78100A1A639 /* ViewController.swift */,
 				D997F8E71E69A78100A1A639 /* Main.storyboard */,
+			);
+			path = MiraclePills;
+			sourceTree = "<group>";
+		};
+		D997F8F51E69BBA100A1A639 /* Extra files */ = {
+			isa = PBXGroup;
+			children = (
+				D997F8E31E69A78100A1A639 /* AppDelegate.swift */,
 				D997F8EA1E69A78100A1A639 /* Assets.xcassets */,
 				D997F8EC1E69A78100A1A639 /* LaunchScreen.storyboard */,
 				D997F8EF1E69A78200A1A639 /* Info.plist */,
 			);
-			path = MiraclePills;
+			name = "Extra files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
