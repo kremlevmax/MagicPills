@@ -14,6 +14,12 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 
     @IBOutlet weak var pickerOfState: UIPickerView!
     
+    @IBOutlet weak var imageSuccess: UIImageView!
+    
+    @IBOutlet weak var fieldZip: UITextField!
+    
+    @IBOutlet weak var headerZip: UILabel!
+    
     let states = ["Alaska", "Arizona", "Texas", "California", "Maimi"]
     
     override func viewDidLoad() {
@@ -31,6 +37,15 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         pickerOfState.isHidden = false
         
     }
+
+    @IBAction func buttonBuyItNowPressed(_ sender: UIButton) {
+        imageSuccess.isHidden = false
+        fieldZip.isHidden = true
+        headerZip.isHidden = true
+        
+        
+    }
+
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
